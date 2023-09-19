@@ -4,7 +4,7 @@ class Present:
 
     def wrap(self, contents):
         if self.contents is not None:
-            raise Exception ("A contents has alredy been wrapped")
+            raise Exception ("A contents has alredy been wrapped.")
         self.contents = contents
     
     def unwrap(self):
